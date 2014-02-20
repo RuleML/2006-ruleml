@@ -1,0 +1,2116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<!-- Mirrored from sti-innsbruck.at/2006_ruleml_org/group3.html by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 23 Oct 2013 18:34:11 GMT -->
+<head>
+
+
+
+
+
+
+
+
+
+
+
+  <title>RuleML-2006: Second International Conference on Rules and Rule Markup Languages for the Semantic Web</title>
+  <meta name="author" content="Jos de Bruijn">
+
+
+
+
+
+
+
+  <meta name="keywords" content="ruleml, rules, rule markup, languages, Semantic Web, Semantic Web Services, ruleml2006">
+
+
+
+
+
+
+
+  <meta name="description" content="Second International Conference on Rules and Rule Markup Languages for the Semantic Web">
+
+
+
+
+
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+
+
+
+
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8">
+
+
+
+
+
+
+
+  <meta http-equiv="Expires" content="Tue, 04 Dec 1993 21:29:02 GMT">
+
+
+
+
+
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+
+
+
+  <script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+  </script>
+
+
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+  <style type="text/css">
+<!--
+.style1 {font-size: 18px}
+-->
+  </style>
+</head>
+
+
+<body onload="MM_preloadImages('bilder/light.gif')">
+
+
+
+
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="15" width="100%">
+
+
+
+
+  <tbody>
+
+
+
+
+    <tr>
+
+
+
+
+      <td align="center"><img src="bilder/header.gif" height="109" width="702"></td>
+
+
+
+
+    </tr>
+
+
+
+
+    <tr>
+
+
+
+
+      <td>
+
+
+
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+
+
+
+        <tbody>
+
+
+
+
+          <tr>
+
+
+
+
+            <td width="50">&nbsp;</td>
+
+
+
+
+            <td>
+
+
+
+            <hr>
+
+
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+
+
+
+              <tbody>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td><a class="menu" href="index-2.html#0" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c1831','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c1831" id="menu_r1_c18" border="0" height="8" width="22">&nbsp;&nbsp;Sponsors</a></td>
+
+
+
+
+                  <td><a class="menu" href="index-2.html#5" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c171','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c171" id="menu_r1_c17" border="0" height="8" width="22">&nbsp;&nbsp;Submission
+Format </a></td>
+
+
+
+
+                  <td><a class="menu" href="group3.html#tutorials" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c110141','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c110141" id="menu_r1_c11014" border="0" height="8" width="22">&nbsp;&nbsp;Tutorials</a></td>
+
+
+
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td><a class="menu" href="index-2.html#1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c183','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c183" id="menu_r1_c18" border="0" height="8" width="22">&nbsp;&nbsp;Description
+of the Conference </a></td>
+
+
+
+
+                  <td><a class="menu" href="index-2.html#6" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c181','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c181" id="menu_r1_c18" border="0" height="8" width="22">&nbsp;&nbsp;Important
+Dates </a></td>
+
+
+
+
+                  <td><a class="menu" href="group3.html#p" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c11014','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c11014" id="menu_r1_c11014" border="0" height="8" width="22">&nbsp;&nbsp;Call for Posters/Demos </a></td>
+
+
+
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td><a class="menu" href="index-2.html#2" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c14','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c14" id="menu_r1_c14" border="0" height="8" width="22">&nbsp;&nbsp;Earlier
+conferences </a></td>
+
+
+
+
+                  <td><a class="menu" href="index-2.html#7" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c11011','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c11011" id="menu_r1_c110" border="0" height="8" width="22">&nbsp;&nbsp;Conference
+Organizers </a></td>
+
+
+
+
+                  <td><a class="menu" href="group3.html#0" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c11012','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c11012" id="menu_r1_c110" border="0" height="8" width="22">&nbsp;&nbsp;Paper
+Submission </a></td>
+
+
+
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td><a class="menu" href="index-2.html#3" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c15','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c15" id="menu_r1_c15" border="0" height="8" width="22">&nbsp;&nbsp;Meeting
+format </a></td>
+
+
+
+
+                  <td><a class="menu" href="index-2.html#8" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c191','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c191" id="menu_r1_c19" border="0" height="8" width="22">&nbsp;&nbsp;Steering
+Committee</a></td>
+
+
+
+
+                  <td><a class="menu" href="group3.html#1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c182','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c182" id="menu_r1_c18" border="0" height="8" width="22">&nbsp;&nbsp;Registration </a></td>
+
+
+
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td><a class="menu" href="index-2.html#4" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c16111','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c16111" id="menu_r1_c16" border="0" height="8" width="22">&nbsp;&nbsp;Topics
+of interest </a></td>
+
+
+
+
+                  <td><a class="menu" href="index-2.html#9" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c110131','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c110131" id="menu_r1_c110" border="0" height="8" width="22">&nbsp;&nbsp;Program
+Committee </a></td>
+
+
+
+
+                  <td><a class="menu" href="group3.html#2" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c111','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c111" id="menu_r1_c111" border="0" height="8" width="22">&nbsp;&nbsp;Venue
+Information </a></td>
+
+
+
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td><a class="menu" href="invitedtalks.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c161111','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c161111" id="menu_r1_c16" border="0" height="8" width="22">&nbsp;&nbsp;Invited
+talks </a></td>
+
+
+
+
+                  <td>&nbsp;</td>
+
+
+
+
+                  <td><a class="menu" href="group3.html#3" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c11111','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c11111" id="menu_r1_c111" border="0" height="8" width="22">&nbsp;&nbsp;Program and Proceedings</a></td>
+
+
+
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td>&nbsp;</td>
+
+
+
+
+                  <td>&nbsp;</td>
+
+
+
+
+                  <td><a class="menu" href="group3.html#4" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu_r1_c11114','','bilder/light.gif',1)"><img src="bilder/normal.gif" name="menu_r1_c11114" id="menu_r1_c1114" border="0" height="8" width="22">&nbsp;&nbsp;Poster Program</a></td>
+
+
+
+
+                </tr>
+
+
+
+
+
+
+
+              </tbody>
+
+
+
+            </table>
+
+
+
+
+
+
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+
+
+
+              <tbody>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td class="head"><a name="tutorials" id="tutorials"></a>&nbsp;&nbsp;&nbsp;Tutorials</td>
+
+
+
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td>
+
+
+
+                  <table border="0" cellpadding="0" cellspacing="10" width="100%">
+
+
+
+
+                    <tbody>
+
+
+
+
+                      <tr>
+
+
+
+
+                        <td align="right" valign="bottom" width="80"><img src="bilder/top.gif" height="6" width="11"><a href="#top">&nbsp;<span class="top">top</span></a></td>
+
+
+
+
+                        <td>
+
+
+
+                        <p><span class="style1">Tutorial
+#1: Semantic Web Policies: Where Are We and What Is Still Missing?</span></p>
+
+
+
+
+
+
+
+                        <p><strong>PRESENTERS</strong></p>
+
+
+
+
+
+
+
+                        <ul>
+
+
+
+
+                          <li> Piero A. Bonatti, University of
+Naples, Italy </li>
+
+
+
+
+                          <li> Daniel Olmedilla, L3S Research
+Center &amp; Hanover University, Germany </li>
+
+
+
+
+
+
+
+                        </ul>
+
+
+
+
+
+
+
+                        <p><strong>ABSTRACT</strong></p>
+
+
+
+
+
+
+
+                        <p> The term policy is often overloaded.
+A general definition might be "a statement that defines the behaviour
+of a system". However, such a general definition encompasses different
+notions, including security policies, trust management policies,
+business rules and quality of service specifications, just to name a
+few. Researchers have mainly focussed on one or more of such notions
+separately but not on a comprehensive view. Policies are pervasive in
+web applications and play crucial roles in enhancing security, privacy,
+and service usability as well. Interoperability and self-describing
+semantics become key requirements and here is where Semantic Web comes
+into play. There has been extensive research on policies, also in the
+Semantic Web community, but there still exist some issues that prevent
+policy frameworks from being widely adopted by users and real world
+applications. </p>
+
+
+
+
+
+
+
+                        <p> This tutorial aims at providing an
+overall view of the state of the art (requirements for a policy
+framework, existing policy frameworks/languages, policy negotiation,
+context awareness, etc.) as well as open research issues in the area
+(policy understanding in a broad sense, integration of trust
+management, increase in system cooperation, userawareness, etc.)
+required to develop a successful Semantic Policy Framework. </p>
+
+
+
+<p>Slides: <a href="bonatti-06-Tutorial.pdf.gz">pdf.gz</a> (1.5 MB)</p>
+
+
+
+                        <p><span class="style1">Tutorial
+#2: Bridging Research and Practice - Making Real-World Application of
+Ontologies and Rules</span></p>
+
+
+
+
+
+
+
+                        <p> <strong>PRESENTERS</strong></p>
+
+
+
+
+
+
+
+                        <ul>
+
+
+
+
+                          <li> Harold Boley, NRC, Canada </li>
+
+
+
+
+                          <li> Holger Knublauch, Top Quadrant,
+USA </li>
+
+
+
+
+                          <li>Adrian Paschke, TU Munich, Germany </li>
+
+
+
+
+
+
+
+                        </ul>
+
+
+
+
+
+
+
+                        <p><strong>ABSTRACT</strong></p>
+
+
+
+
+
+
+
+                        <p> A number of key business needs and
+challenges motivate solutions based on semantic technology and rules.
+The tutorial starts with exploring these motivations by setting
+specific business contexts, drivers, forces and challenges typically
+met in information systems across most of industry. Following this, is
+an overview and positioning of industry standards for ontologies (RDFS,
+OWL, SPARQL and SWRL) and rules (SBVR, PRR, RIF, RuleML,
+Jess).&nbsp;Ontology-rule integration (SWRL, RDF Gateway) and reactive
+rules (viaReaction RuleML) will also be covered.The tutorial will describe and
+demonstrate development environments (Protege, SWOOP and TopBraid
+Composer  <a href="http://www.topbraidcomposer.com/">&lt;http://www.topbraidcomposer.com</a>)
+and execution engines (KAON2, Pellet, Racer). Using use cases and
+qualifying criteria developed at W3C, some specific solution archetypes
+will be described using Capability Cases ( <a href="http://www.capabilitycases.org/">http://www.capabilitycases.org
+                        </a>). </p>
+
+
+                        <p> One use case and its solution
+architecture will be developed in full. The tutorial will evaluate the
+real-world applicability of the solutions discussed. </p>
+
+<p><a href="slides/RuleML06-tutorial-introduction.pdf">slides (Introduction)</a></p>
+
+<p><a href="slides/RuleML-Family-PPSWR06-talk-up.pdf">slides (RuleML family)</a></p>
+
+<p><a href="slides/reaction-ruleml.pdf">slides (Reaction RuleML)</a></p>
+
+<p><a href="slides/tutorial-holger.pdf">slides (TopBraid)</a></p>
+
+
+                        </td>
+
+
+
+
+                      </tr>
+
+
+
+
+
+
+
+                    </tbody>
+
+
+
+                  </table>
+
+
+
+
+                  </td>
+
+
+
+
+                </tr>
+
+
+
+
+
+
+
+              </tbody>
+
+
+
+            </table>
+
+
+
+
+            <br>
+
+
+
+
+
+
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+
+
+
+              <tbody>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td class="head"><a name="p" id="p"></a>&nbsp;&nbsp;&nbsp;Call for
+Posters/Demos</td>
+
+
+
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td>
+
+
+
+                  <table border="0" cellpadding="0" cellspacing="10" width="100%">
+
+
+
+
+                    <tbody>
+
+
+
+
+                      <tr>
+
+
+
+
+                        <td align="right" valign="bottom" width="80"><img src="bilder/top.gif" height="6" width="11"><a href="#top">&nbsp;<span class="top">top</span></a></td>
+
+
+
+
+                        <td>
+
+
+
+                        <p> We invite proposals for the Posters
+and Demos session on November 10 at
+the RuleML-2006 conference. The proposals are expected to describe
+late-breaking results, system demonstrations, and innovative projects.
+                        </p>
+
+
+
+
+
+
+
+                        <p>We invite articles of no more than 2
+pages in length describing original
+innovative work on the <a href="http://2006.ruleml.org/index.html#4">Topics
+of the conference</a>. Submissions should be made online in
+PDF format on the <a href="http://www.easychair.org/RuleML2006/">conference
+submission site</a>.
+Multiple submission are allowed.
+                        </p>
+
+
+
+
+
+
+
+                        <p>Submissions will be evaluated by the
+program committee and the
+accepted submissions will be published on the conference Web site. The
+authors
+will present their posters and demos at the RuleML demo session on
+November 10. </p>
+
+
+
+
+
+
+
+                        <p><strong>Important dates</strong>
+                        </p>
+
+
+
+
+
+
+
+                        <table cellpadding="0" cellspacing="0">
+
+
+
+
+                          <tbody>
+
+
+
+
+                            <tr>
+
+
+
+
+                              <td>passed<br>
+
+
+
+                              </td>
+
+
+
+
+                              <td>-- </td>
+
+
+
+
+                              <td>Deadline for poster/demo
+proposals. </td>
+
+
+
+
+                            </tr>
+
+
+
+
+                            <tr>
+
+
+
+
+                              <td>passed </td>
+
+
+
+
+                              <td>-- </td>
+
+
+
+
+                              <td>Poster/demo notification. </td>
+
+
+
+
+                            </tr>
+
+
+
+
+                            <tr>
+
+
+
+
+                              <td>10 November 2006 </td>
+
+
+
+
+                              <td>-- </td>
+
+
+
+
+                              <td>Posters and Demos session at
+RuleML-2006. </td>
+
+
+
+
+                            </tr>
+
+
+
+
+
+
+
+                          </tbody>
+
+
+
+                        </table>
+
+
+
+
+
+
+
+                        <p></p>
+
+
+
+
+                        </td>
+
+
+
+
+                      </tr>
+
+
+
+
+
+
+
+                    </tbody>
+
+
+
+                  </table>
+
+
+
+
+                  </td>
+
+
+
+
+                </tr>
+
+
+
+
+
+
+
+              </tbody>
+
+
+
+            </table>
+
+
+
+
+            <br>
+
+
+
+
+
+
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+
+
+
+              <tbody>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td class="head"><a name="0" id="0"></a>&nbsp;&nbsp;&nbsp;Paper
+Submission</td>
+
+
+
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td>
+
+
+
+                  <table border="0" cellpadding="0" cellspacing="10" width="100%">
+
+
+
+
+                    <tbody>
+
+
+
+
+                      <tr>
+
+
+
+
+                        <td align="right" valign="bottom" width="80"><img src="bilder/top.gif" height="6" width="11"><a href="#top">&nbsp;<span class="top">top</span></a></td>
+
+
+
+
+                        <td>
+
+
+
+                        <p>Submission is closed.</p>
+
+
+
+
+                        </td>
+
+
+
+
+                      </tr>
+
+
+
+
+
+
+
+                    </tbody>
+
+
+
+                  </table>
+
+
+
+
+                  </td>
+
+
+
+
+                </tr>
+
+
+
+
+
+
+
+              </tbody>
+
+
+
+            </table>
+
+
+
+
+            <br>
+
+
+
+
+
+
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+
+
+
+              <tbody>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td class="head"><span class="style1"><a name="1"></a></span>&nbsp;&nbsp;&nbsp;Registration</td>
+
+
+
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td>
+
+
+
+                  <table border="0" cellpadding="0" cellspacing="10" width="100%">
+
+
+
+
+                    <tbody>
+
+
+
+
+                      <tr>
+
+
+
+
+                        <td align="right" valign="bottom" width="80"><img src="bilder/top.gif" height="6" width="11"><a href="#top">&nbsp;<span class="top">top</span></a></td>
+
+
+
+
+                        <td>
+
+
+
+                        <p>Early registration (<span style="font-weight: bold;">closed</span>): $275 </p>
+
+
+
+
+
+
+
+
+
+                        <p>Late registration (until November 3): $335</p>
+
+
+
+
+                        <p>On-site registration: $335 </p>
+
+
+
+
+                        <p>Please use the <a href="http://www.georgiacenter.uga.edu/conferences/2006/Nov/10/rule.phtml">Registration
+form</a>.</p>
+
+
+
+
+                        </td>
+
+
+
+
+                      </tr>
+
+
+
+
+
+
+
+                    </tbody>
+
+
+
+                  </table>
+
+
+
+
+                  </td>
+
+
+
+
+                </tr>
+
+
+
+
+
+
+
+              </tbody>
+
+
+
+            </table>
+
+
+
+
+            <br>
+
+
+
+
+
+
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+
+
+
+              <tbody>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td class="head"><a name="2"></a>&nbsp;&nbsp;&nbsp;Venue
+Information </td>
+
+
+
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td>
+
+
+
+                  <table border="0" cellpadding="0" cellspacing="10" width="100%">
+
+
+
+
+                    <tbody>
+
+
+
+
+                      <tr>
+
+
+
+
+                        <td align="right" valign="bottom" width="80"><img src="bilder/top.gif" height="6" width="11"><a href="#top">&nbsp;<span class="top">top</span></a></td>
+
+
+
+
+                        <td> RuleML 2006 will take place at the <a href="http://classiccenter.com/">Classic Center</a> in
+Athens, GA. Classic Center is about two miles away from the Georgia
+Center, the location of <a href="http://iswc2006.semanticweb.org/">ISWC
+2006</a>.<br>
+
+
+
+                        <br>
+
+
+
+                        <br>
+
+
+
+Talks: Oconee River Room 1.<br>
+
+
+
+Lunches: High Shoals Room<br>
+
+
+
+Poster Session and Reception: High Shoals Room<br>
+
+
+
+Work/break room: Willow Room</td>
+
+
+
+
+                      </tr>
+
+
+
+
+
+
+
+                    </tbody>
+
+
+
+                  </table>
+
+
+
+
+                  </td>
+
+
+
+
+                </tr>
+
+
+
+
+
+
+
+              </tbody>
+
+
+
+            </table>
+
+
+
+
+            <br>
+
+
+
+
+
+
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+
+
+
+              <tbody>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td class="head"><a name="3" id="3"></a>&nbsp;&nbsp;&nbsp;Program and Online Proceedings of
+the RuleML Conference and of the workshop on Ontology and Rule
+Integration</td>
+
+
+
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td>
+
+
+
+                  <table border="0" cellpadding="0" cellspacing="10" width="100%">
+
+
+
+
+                    <tbody>
+
+
+
+
+                      <tr>
+
+
+
+
+                        <td align="right" valign="bottom" width="80"><img src="bilder/top.gif" height="6" width="11"><a href="#top">&nbsp;<span class="top">top</span></a></td>
+
+
+
+
+                        <td>Download the program as <a href="finalprogram.pdf">pdf</a><br>
+
+
+                        <br>
+
+
+The technical talks will be in: Oconee River Room 1<br>
+
+
+
+
+
+
+                        <h5 class="style1"> Day 1:
+November 10 </h5>
+
+
+
+
+
+
+
+                        <p>08:15 - 16:00 Registration (Foyer of the Oconee River Room)</p>
+
+
+
+
+
+
+                        <p>08:45 - 09:00 Welcome</p>
+
+
+
+
+
+
+
+                        <p> 09.00 - 10.00 Keynote I (Chair: Michael Kifer) </p>
+
+
+
+
+
+
+
+                        <ul>
+
+
+
+
+                          <li> <a href="invitedtalks.html">The
+limits and possibilities of combining
+Description Logics and Datalog.
+Riccardo Rosati</a></li>
+
+
+
+
+
+
+
+                        </ul>
+
+                        <p> 10.00 - 10.30 Coffee break</p>
+
+                        <p> 10.30 - 11.30 Research Session I -
+Ontologies and rules: (Chair: Ora Lassila) </p>
+
+                        <ul>
+
+
+
+
+                          <li> <a href="online-proceedings/frames-ruleml.pdf">Translating Ontologies from
+Predicate-based to Frame-based Languages</a> (Jos de Bruijn and Stijn
+Heymans) <a href="slides/debruijn-ruleml-handouts.pdf">slides</a></li>
+
+
+
+
+                          <li> <a href="online-proceedings/submission_8.pdf">How to reason with OWL in a logic
+programming system</a> (Markus Kr&ouml;tzsch, Pascal Hitzler, Denny
+Vrandecic and Michael Sintek) <a href="slides/hitzler-ruleml06.pdf">slides</a></li>
+
+
+
+
+
+
+
+                        </ul>
+
+
+
+
+
+
+
+                        <p> 11.30 - 12.30 Research Session II -
+Rules and Interoperability (Chair: Pascal Hitzler) </p>
+
+
+
+
+
+
+
+                        <ul>
+
+
+
+
+                          <li> <a href="online-proceedings/submission_21.pdf">Combining ECA Rules with Process
+Algebras for the Semantic Web</a> (Erik Behrends, Oliver Fritzen, Wolfgang
+May and Franz Schenk) <a href="slides/may-ruleml06.pdf">slides</a></li>
+
+
+
+
+                          <li><a href="online-proceedings/submission_9.pdf">A Framework for Composition and
+Interoperation of Rules in the Semantic Web</a> (Enrico Pontelli, Chitta
+Baral and Tran Son) <a href="slides/tran-ruleml06.pdf">slides</a></li>
+
+
+
+
+
+
+
+                        </ul>
+
+
+
+
+
+
+
+                        <p> 12.30 - 13.30 Lunch (High Shoals Room) </p>
+
+
+
+
+
+
+
+                        <p> 13.30 - 16.00 Tutorial I (Chair: Thomas Lukasiewicz)<br>
+
+
+
+ </p>
+
+
+
+
+
+
+
+                        <ul>
+
+
+
+
+                          <li> <a href="#tutorials">Semantic
+Web Policies: Where are we and What is still Missing? Piero A. Bonatti,
+Daniel Olmedilla</a> </li>
+
+
+
+
+
+
+
+                        </ul>
+
+
+
+
+
+
+
+                        <p> 16.00 - 16.30 Coffee break </p>
+
+
+
+
+
+
+
+                        <p> 16.30 - 18.30 Industry Session (Chair: Wolfgang May) </p>
+
+
+
+
+
+
+
+                        <ul>
+
+
+
+
+                          <li> <a href="online-proceedings/submission_36.pdf">Generating Rewrite Rules by
+Browsing RDF Data</a> (Ora Lassila)</li>
+
+
+
+
+                          <li> <a href="online-proceedings/submission_15.pdf">Semantic Information Integration
+with Software AGs Information Integrator (Juergen Angele and Michael
+Gesmann) <a href="slides/henriksson-ruleml06.pdf">slides</a></li>
+
+
+
+
+                          <li> <a href="online-proceedings/submission_34.pdf">BaseVISor: A Triples-Based
+Inference Engine Outfitted to Process RuleML and R-Entailment Rules</a>
+(Christopher Matheus, Kenneth Baclawski and Mieczyslaw Kokar) </li>
+
+
+
+
+                          <li> <a href="online-proceedings/submission_41.pdf">Applying Semantic Rules to Achieve
+Dynamic Service Oriented Architectures</a> (Suzette Stoutenburg, Leo Obrst,
+Deborah Nichols, Ken Samuel and Paul Franklin) <a href="slides/nichols-ruleml06.pdf">slides</a></li>
+
+
+
+
+
+
+
+                        </ul>
+
+
+
+
+
+
+
+                        <p> 19:30 - 21:30: Poster Session and
+Reception (High Shoals Room; &nbsp;buffet dinner served) </p>
+
+
+
+
+
+
+
+                        <p class="style1"> Day 2: November
+11</p>
+
+
+
+08:15 - 10:15 Registration&nbsp; (Foyer of the Oconee River Room)
+
+
+
+                        <p> 08.30 - 10:30 Ontology and Rule
+Integration Workshop (Chair: Suzette Stoutenburg) </p>
+
+
+
+
+
+
+
+                        <ul>
+
+
+
+
+                          <li> <a href="online-proceedings/workshop_submission_2.pdf">Combining safe rules and
+ontologies by interfacing of reasoners</a> (Jakob Henriksson and Jan
+Maluszynski) <a href="slides/henriksson-ruleml06.pdf">slides</a></li>
+
+
+
+
+                          <li><a href="online-proceedings/workshop_submission_4.pdf">Combining XML querying with
+ontology reasoning</a> (Wlodzimierz Drabent and Artur Wilk) <a href="slides/wilk-ruleml06.pdf">slides</a></li>
+
+
+
+
+                          <li><a href="online-proceedings/workshop_submission_7.pdf">Experiments in cognitive radio and
+dynamic spectrum access using an ontology driven hybrid architecture</a>
+(Allen Ginsberg, William Horne and Jeffrey Poston) <a href="slides/ginsberg-ruleml06.pdf">slides</a></li>
+
+
+
+
+                          <li><a href="online-proceedings/rule-integ.pdf">A logic for hybrid rules</a> (Axel
+Polleres, David Pearce, Agustin Valverde and Jos De Bruijn)  <a href="slides/rule_integ_slides.pdf">slides</a></li>
+
+
+
+
+
+
+
+                        </ul>
+
+
+
+
+
+
+
+                        <p> 10:30 - 11:00 Coffee break </p>
+
+
+
+
+
+
+
+                        <p> 11:00 - 12.00 Fishbowl panel (Chair: Ralph Hodgson)</p>
+
+
+
+
+
+
+
+                        <ul>
+
+
+
+
+                          <li> Challenges in Real World
+Applications of Rules and Ontologies. </li>
+
+
+
+
+
+
+
+                        </ul>
+
+
+
+
+
+
+
+                        <p> 12.00 - 13.00 Lunch (High Shoals Room) </p>
+
+
+
+
+
+
+
+                        <p> 13.00 - 14.00 Keynote II (Chair: Son Cao Tran) </p>
+
+
+
+
+
+
+
+                        <ul>
+
+
+
+
+                          <li> <a href="invitedtalks.html">Rule-based
+intelligence in the Semantic Web -or- "I'll settle for a web that's
+just not so dumb!" Dean Allemang </a></li>
+
+
+
+
+
+
+
+                        </ul>
+
+
+
+
+
+
+
+                        <p> 14:00 - 14:15 Coffee break </p>
+
+
+
+
+
+
+
+                        <p> 14.15 - 15.45 Research Session III -
+Uncertainty and rules (Chair: Jos de Bruijn) </p>
+
+
+
+
+
+
+
+                        <ul>
+
+
+
+
+                          <li> <a href="online-proceedings/submission_20.pdf">Fuzzy Description Logic Programs
+under the Answer Set Semantics</a> (Thomas Lukasiewicz) <a href="slides/sli-ruleml06.pdf">slides</a></li>
+
+
+
+
+                          <li> <a href="online-proceedings/submission_24.pdf">An Approach to Representing
+Uncertainty Rules in RuleML</a> (Carlos Damasio, Jeff Pan, Giorgos Stoilos
+and Umberto Straccia) </li>
+
+
+
+
+                          <li> <a href="online-proceedings/submission_16.pdf">Learning Rules to Pre-process Web
+Data for Automatic Integration</a> (Kai Simon, Thomas Hornung and Georg
+Lausen) </li>
+
+
+
+
+
+
+
+                        </ul>
+
+
+
+
+
+
+
+                        <p> 15.45 - 16.15 Coffee break </p>
+
+
+
+
+
+
+
+                        <p> 16.15 - 18.45 Tutorial II (Chair: Axel Polleres) </p>
+
+
+
+
+
+
+
+                        <ul>
+
+
+
+
+                          <li> <a href="#tutorials">Bridging
+Research and Practice - Making Real-World Application of Ontologies and
+Rules. Harold Boley,&nbsp;Holger Knublauch, Adrian Paschke </a></li>
+
+
+
+
+
+
+
+                        </ul>
+
+
+
+
+                        </td>
+
+
+
+
+                      </tr>
+
+
+
+
+
+
+
+                    </tbody>
+
+
+
+                  </table>
+
+
+
+
+                  </td>
+
+
+
+
+                </tr>
+
+
+
+
+
+
+
+              </tbody>
+
+
+
+            </table>
+
+
+
+
+
+
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+
+
+
+              <tbody>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td class="head"><a name="4" id="4"></a>&nbsp;&nbsp;&nbsp;Poster Program</td>
+
+
+
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+
+
+                  <td>
+
+
+
+                  <ul>
+
+
+
+
+                    <li><a href="online-proceedings/poster_submission_43.pdf">A Framework and Components for ECA Rules
+in the Web</a> by Erik Behrends, Oliver Fritzen, Wolfgang May, Franz Schenk</li>
+
+
+
+
+                    <li> <a href="online-proceedings/poster_submission_44.pdf">Towards a UbiSafe Environment Using Rules</a><br>
+
+
+
+
+by Tope Omitola</li>
+
+
+
+
+                    <li> <a href="online-proceedings/poster_submission_45.pdf">Natural Language Parsing with GOLD and
+SWRL</a><br>
+
+
+
+
+by Graham Wilcock</li>
+
+
+
+
+                    <li> <a href="online-proceedings/poster_submission_46.pdf">Reactive Web Rules: A Demonstration of
+XChange</a><br>
+
+
+
+
+by Francois Bry, Michael Eckert, Hendrik Grallert, Paula-Lavinia
+Patranjan</li>
+
+
+
+
+                    <li> <a href="online-proceedings/poster_submission_49.pdf">The SWRLTab: An Extensible Environment
+for working with SWRL Rules in Prot&eacute;g&eacute;-OWL</a><br>
+
+
+
+
+by Martin O'Connor and Amar Das</li>
+
+
+
+
+                    <li> <a href="online-proceedings/poster_submission_54.pdf">ECA-LP/ECA-RuleML: A Homogeneous
+Event-Condition-Action Logic Programming Language</a><br>
+
+
+
+
+by Adrian Paschke</li>
+
+
+
+
+                    <li> <a href="online-proceedings/poster_submission_55.pdf">RuleML FOAF: Web Rules for Social
+Networking</a><br>
+
+
+
+
+by Jie Li, Harold Boley and Virendrakumar C. Bhavsar</li>
+
+
+
+
+
+
+
+                  </ul>
+
+
+
+
+                  </td>
+
+
+
+
+                </tr>
+
+
+
+
+
+
+
+              </tbody>
+
+
+
+            </table>
+
+
+
+
+            </td>
+
+
+
+
+          </tr>
+
+
+
+
+          <tr>
+
+
+
+
+            <td></td>
+
+
+
+
+          </tr>
+
+
+
+
+
+
+
+        </tbody>
+
+
+
+      </table>
+
+
+
+
+      </td>
+
+
+
+
+    </tr>
+
+
+
+
+
+
+
+  </tbody>
+</table>
+
+
+
+
+</body>
+
+<!-- Mirrored from sti-innsbruck.at/2006_ruleml_org/group3.html by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 23 Oct 2013 18:34:41 GMT -->
+</html>

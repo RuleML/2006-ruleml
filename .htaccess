@@ -1,0 +1,5 @@
+RewriteEngine on
+
+#RewriteCond %{HTTP_HOST} ^2006\.ruleml\.org$ [OR]
+#RewriteCond %{HTTP_HOST} ^www\.2006\.ruleml\.org$
+#RewriteRule ^(.*)$ "https\:\/\/sti\-innsbruck\.at\/2006_ruleml_org\/$1" [R=302,L]
